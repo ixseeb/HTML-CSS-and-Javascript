@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px
+  }
+
+h1 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 42px;
+    font-size: 175%;
+}
+.box {
+    float: left;
+    width: 98%;
+}
+
+.lorem {
+    float: right;
+    background-color: rgb(228, 147, 159);
+    text-align: center;
+    position: relative;
+    width: 30%;
+    font-size: 125%;
+    border: 1px solid black;
+    overflow: none;
+    padding: 3px;
+    margin: -1px -1px 0px 0px;
+}
+
+.content {
+    padding: 6% 2% 2% 2%;
+    text-align: justify;
+    margin: -1px -1px 2.5% 2.5%;
+    background-color: silver;
+    border: 1px solid black;
+}
+
+@media screen and (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+      width: 33.33%;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+      float: left;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-12 {
+      margin-left: -8px;
+      width: 100%;
+    }
+    .sushi{
+      margin-right: 50px;
+      width: 80px;
+    }
+  }
+  
+  @media screen and (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+      width: 100%;
+    }
+    .lorem {
+      margin-right: 30px;
+    }
+  }
