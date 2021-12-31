@@ -17,7 +17,6 @@ h1 {
 
 .lorem {
     float: right;
-    background-color: rgb(228, 147, 159);
     text-align: center;
     position: relative;
     width: 30%;
@@ -28,6 +27,15 @@ h1 {
     margin: -1px -1px 0px 0px;
 }
 
+.chicken {
+  background-color: rgb(158, 175, 82);
+}
+.beef {
+  background-color: rgb(59, 192, 126);
+}
+.sushi {
+  background-color: rgb(126, 101, 196);
+}
 .content {
     padding: 8% 2% 2% 2%;
     text-align: justify;
