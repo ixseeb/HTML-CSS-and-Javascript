@@ -1,8 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
-
 .navbar {
     background-color: rgb(172, 167, 167);
     border-radius: 0px;    
@@ -12,6 +10,7 @@
     color: black;
     font-size: 2em;
     font-weight: 400;
+    font-family:sans-serif;
 
 
 }
@@ -63,4 +62,15 @@
 	background-color: rgba(0,0,0,0.2);
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	padding: 20px;
+}
+.item {
+    font-size: 2em;
+}
+
+h1 {
+    margin: 100px 0px 10px 0px;
+    text-align: center;
+    position: relative;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: 500;
 }
