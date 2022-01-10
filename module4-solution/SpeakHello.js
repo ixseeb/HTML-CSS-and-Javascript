@@ -23,10 +23,10 @@
 
 (function(window) {
 	var speakWord = "Hello";
-	var helloSpeak = function (name) {
+	var helloSpeaker = function (name) {
 		console.log(speakWord + " " + name);
 	}
 
-	window.helloSpeaker = helloSpeak;
+	window.helloSpeaker = helloSpeaker;
 
 })(window);
